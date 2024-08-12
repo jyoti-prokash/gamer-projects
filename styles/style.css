@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
 }
 
 /* navbar style section */
 nav{
     max-width: 1350px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -31,7 +33,6 @@ nav{
     margin: 0 10px; 
 }
 .nav-right .follow{
-    display: flex;
     border-radius: 8px;
     padding: 10px;
     background-color: rgba(128, 125, 121, 0.272);
@@ -52,6 +53,62 @@ nav ul li a{
     font-weight: 500;
 }
 .nav-section{
-    /* border: 2px solid green; */
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* header section */
+.header-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-header{
+    background-image: url(../resources/Group\ 14.png);
+    background-position: start;
+    background-repeat: no-repeat;
+}
+.header-left{
+    width: 50%;
+}
+.header-left h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.header-left h1{
+    font-size: 4.50rem;
+    font-weight: 850;
+    margin-bottom: 15px;
+}
+.header-left p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.icon-red{
+    color:#ff42a5;
+}
+.header-btn1, .header-btn2{
+    padding: 15px 25px;
+    border-radius: 40px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
+    border: none;
+}
+.header-btn1{
+    background-color: #ff42a5;
+    margin-right: 30px;
+}
+.header-btn2{
+    background-color: rgba(78, 197, 247, 1);
+}
+.header-right{
+    width: 50%;
+}
+.header-right img{
+    width: 100%;
 }
