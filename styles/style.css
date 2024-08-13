@@ -68,7 +68,7 @@ nav ul li a{
     background-image: url(../resources/Group\ 14.png);
     background-position: start;
     background-repeat: no-repeat;
-}
+} 
 .header-left{
     width: 50%;
 }
@@ -101,14 +101,53 @@ nav ul li a{
 }
 .header-btn1{
     background-color: #ff42a5;
-    margin-right: 30px;
 }
 .header-btn2{
     background-color: rgba(78, 197, 247, 1);
+    margin-left: 30px;
 }
 .header-right{
     width: 50%;
 }
 .header-right img{
     width: 100%;
+}
+/* gamer container section */
+.gamer-container{
+    max-width: 1350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-gamer{
+    width: 60%;
+}
+.left-gamer img{
+    width: 100%;
+}
+.right-gamer{
+    width: 35%;
+    text-align: right;
+}
+.right-gamer h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.right-gamer p{
+    margin-top: 15px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-gamer h2{
+    color: #534C64;
+    margin: 15px;
+    font-size: 1.50rem;
+    font-weight: 700;
+}
+.right-gamer .purpose{
+    font-size: 25px;
+    font-weight: 500;
+    color: #534C64;
 }
