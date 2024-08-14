@@ -115,7 +115,7 @@ nav ul li a{
 /* gamer container section */
 .gamer-container{
     max-width: 1350px;
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,4 +150,44 @@ nav ul li a{
     font-size: 25px;
     font-weight: 500;
     color: #534C64;
+}
+/* online games container */
+.onlinegames-container{
+    max-width: 1350px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.img-card{
+    position: relative;
+}
+.img-card img{
+    width: 100%;
+}
+.watch-now{
+    position: absolute;
+    top: 40%; 
+    left: 30%;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+    display: none;
+}
+.watch-now p{
+    color: #ed268d;
+    margin-top: 5px;
+}
+.watch-now .play{
+    color: white;
+    font-size: 30px;
+}
+.card-text{
+    margin-top: 20px;
+}
+.img-card:hover .watch-now{
+    display: block;
+}
+.img-card img:hover{
+    filter: brightness(50%);
 }
