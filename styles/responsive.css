@@ -149,22 +149,24 @@
         padding: 10%;
     }
     .footer-container{
-        max-width: 60%;
-        margin: 0 auto;
+        width: 90%;
     }
     .footer-title{
-        display: flex;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
+        margin: 0 auto;
+        width: 90%;
     }
     .footer-social{
         font-size: 30px;
         flex-wrap: wrap;
-        justify-content: center;
-        width: 70%;
+        justify-content: space-between;
+        width: 100%;
         gap: 30px;
     }
     .footer-privecy{
+        width: 80%;
+        margin: 0 auto;
         font-size: 14px;
         flex-wrap: wrap;
         gap: 20px;
