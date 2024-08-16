@@ -156,9 +156,27 @@ nav ul li a{
     color: #534C64;
 }
 /* online games container */
+.onlinegames-head-title{
+    max-width: 1350px;
+    text-align: center;
+    margin: 30px auto;
+}
+.onlinegames-head-title h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.onlinegames-head-title h1 span{
+    color: #ed268d;
+}
+.onlinegames-head-title p{
+    margin: 10px;
+    font-size: 15px;
+    color: #534C64;
+}
 .onlinegames-container{
     max-width: 1350px;
-    margin: 30px auto;
+    margin: 0 auto;
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
@@ -199,7 +217,7 @@ nav ul li a{
 /* instantly section */
 .instantly-section{
     max-width: 1350px;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -240,7 +258,6 @@ nav ul li a{
 }
 .anywhere-left{
     width: 50%;
-    border: 2px solid red;
     position: relative;
 }
 .anywhere-img {
@@ -303,7 +320,6 @@ nav ul li a{
     font-weight: 500;
 }
 .carrers-btn{
-    /* width: 10px auto; */
     padding: 12px 25px;
     color:#ff42a5;
     font-size: 18px;
